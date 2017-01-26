@@ -15,10 +15,17 @@ rabbitmq:
   port:
   user:
   password:
+  tls:
   #host: mb101-eiffel010.lmera.ericsson.se
   exchange:
     name: amq.direct
-
+  domainId: eiffelxxx
 spring:
   http.converters:
     preferred-json-mapper: gson
+
+activedirectory:
+  enabled: false
+  domain:
+  url:
+
